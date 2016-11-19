@@ -60,6 +60,7 @@ export class Column implements AfterContentInit{
     @Input() colspan: number;
     @Input() style: any;
     @Input() styleClass: string;
+    @Input() headerStyle: any;
     @Input() hidden: boolean;
     @Input() expander: boolean;
     @Input() selectionMode: string;
